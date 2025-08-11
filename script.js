@@ -57,11 +57,8 @@ function mostraPergunta(){
 }
 function mostraAlternativas(){
     } for(const alternativas of perguntaAtual.alternativas){
-        const botaoAlternativa = document.createElement("cutton");
-        botaoAlternativa.textContent=alçternativas.texto;
-        botaoAlternativa.addEventListern("click", function);{
-            atual++; 
-        }
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativas;
         caixaAlternativa.appendChild(botaoAlternativa);
     }
 mostraPergunta();
